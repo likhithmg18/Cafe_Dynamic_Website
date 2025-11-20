@@ -1,5 +1,0 @@
-mysql_image: "mysql:latest"
-mysql_container_name: "mysql"
-mysql_root_password: "Msois@123"
-mysql_database: "mom_pop_db"
-

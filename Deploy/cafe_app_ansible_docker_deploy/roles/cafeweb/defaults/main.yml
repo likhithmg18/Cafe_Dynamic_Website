@@ -1,9 +1,0 @@
-db_url: "mysql"
-db_name: "mom_pop_db"
-db_user: "root"
-db_password: "Msois@123"
-cafeweb_image: "sreedocker123/mompopcafeapp:v1"
-cafeweb_container_name: "cafeweb"
-time_zone: "America/New_York"
-currency: "$"
-
