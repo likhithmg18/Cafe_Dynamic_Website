@@ -21,7 +21,7 @@ spec:
         configMap:
           name: app-config
       containers:
-      - image: likhith189/cafeweb:latest
+      - image: likhith189/cafeweb:v2
         name: cafeweb
         volumeMounts:
         - name: app-config-volume
