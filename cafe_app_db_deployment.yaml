@@ -16,7 +16,7 @@ spec:
         app: cafeapp 
     spec:
       containers:
-      - image: likhith189/cafedb:v2
+      - image: dvasanth26/mompopdb:v1
         name: mysql
         env:
         - name: MYSQL_ROOT_PASSWORD
