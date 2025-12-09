@@ -1,0 +1,8 @@
+config files: cafe_app_config_map.yaml,cafe_app_web_deployment.yaml,cafe_app_web_service.yaml,cafe_app_db_deployment.yaml,cafe_app_db_service.yaml,mysql-pass.yaml,cafe_app_pv.yaml,cafe_app_pvc.yaml,mysql_pv.yaml,mysql_pvc.yaml
+kubectl apply -f mysql_pv.yaml
+kubectl apply -f mysql_pvc.yaml
+
+
+docker
+sudo docker rm -f mompopcafeapp mysql
+sudo docker-compose up -d
